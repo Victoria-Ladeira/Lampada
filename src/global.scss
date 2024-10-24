@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: url("./src/assets/imagem palacio.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+}
+
+h1{
+    color:rgba(255, 255, 255, 1);
+    font-family: "Sevillana", cursive;
+    font-size: 50px;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50;
+    text-align: center;
+
+    @media (min-width:320px) and (max-width:500px){
+        font-size: 20px;
+        margin-top: 0%;
+    }
+}
+
+img{
+    height: 75vh;
+    margin-left: 23%;
+
+    @media (min-width:320px) and (max-width:500px){
+        height:46vh;
+        margin-left: 0%;
+        margin-top: 32%;
+    }
+}
+
+button{
+    background-color: rgba(0, 123, 255, 1);
+    color:rgba(255, 255, 255, 1);
+    font-family: "Sevillana", cursive;
+    font-size: 33px;
+    font-weight: 50;
+    height: 8vh;
+    width: 23vw;
+    border-radius: 40px;
+    border: none;
+
+    @media (min-width:320px) and (max-width:500px){
+        font-size: 20px;
+        width: 50vw;
+        height: 10vh;
+        margin-left: 25%;
+        margin-bottom: 18%;
+        background-color: rgba(183, 71, 148, 1);
+        ;
+    }
+}
